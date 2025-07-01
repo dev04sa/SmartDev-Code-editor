@@ -97,9 +97,12 @@ Modern software development demands:
 
 ## 📸 Screenshots & Demo
 
-| Editor UI | File Navigator | AI Assistant |
-|-----------|----------------|--------------|
-| ![Editor](public/screenshots/editor.png) | ![Navigator](public/screenshots/navigator.png) | ![AI Assistant](public/screenshots/assistant.png) |
+![Logo](./public/screenshots/1.png)
+![Logo](./public/screenshots/2.png)
+![Logo](./public/screenshots/3.png)
+![Logo](./public/screenshots/4.png)
+![Logo](./public/screenshots/5.png)
+
 
 🎥 **Demo Video**: [Watch on YouTube](https://www.youtube.com/watch?v=your-demo-link) *(Replace with your actual link if available)*
 

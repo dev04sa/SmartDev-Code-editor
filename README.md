@@ -2,6 +2,10 @@
 
 # ⚡ SmartDev Editor - AI-Assisted Code Editor with Real-Time Collaboration
 
+🔗 **Live Demo**: [smartdev-editor.vercel.app](https://smartdev-editor.vercel.app/)
+
+---
+
 ## 🧠 Overview  
 **SmartDev Editor** is a lightweight, AI-assisted code editor that empowers developers with real-time multi-user collaboration and smart AI-driven productivity tools. Designed for seamless teamwork, SmartDev Editor combines intuitive design, live editing, and intelligent coding features like auto-completion, linting, syntax correction, and documentation generation.
 
@@ -91,16 +95,29 @@ Modern software development demands:
 
 ---
 
-## 📸 Key Features Summary
+## 📸 Screenshots & Demo
 
-| Feature                       | Description                                                                 |
-|-------------------------------|-----------------------------------------------------------------------------|
-| ✅ AI-Powered Linting         | Detects syntax errors and offers instant suggestions                       |
-| ✅ Live Collaboration         | Real-time editing, cursor tracking, and team chat                          |
-| ✅ Auto Documentation         | Generates comments for functions automatically                             |
-| ✅ Realtime File Management   | Create, delete, rename, and organize folders/files in sync                 |
-| ✅ Customizable Code Editor   | Monaco-based with themes, font sizes, and language support                 |
-| ✅ Smart Chatbot              | In-editor AI assistant for help and brainstorming                          |
+| Editor UI | File Navigator | AI Assistant |
+|-----------|----------------|--------------|
+| ![Editor](public/screenshots/editor.png) | ![Navigator](public/screenshots/navigator.png) | ![AI Assistant](public/screenshots/assistant.png) |
+
+🎥 **Demo Video**: [Watch on YouTube](https://www.youtube.com/watch?v=your-demo-link) *(Replace with your actual link if available)*
+
+---
+
+## 📦 Environment Variables Example
+
+```env
+NEXT_PUBLIC_FIREBASE_API_KEY=your_api_key
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your_auth_domain
+NEXT_PUBLIC_FIREBASE_PROJECT_ID=your_project_id
+NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=your_storage_bucket
+NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
+NEXT_PUBLIC_FIREBASE_APP_ID=your_app_id
+NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID=your_measurement_id
+
+NEXT_PUBLIC_GEMINI_API_KEY=your_gemini_api_key
+````
 
 ---
 
@@ -119,25 +136,9 @@ npm run dev
 
 # Access the app at
 http://localhost:3000
-````
-
-Make sure you’ve set up your Firebase project and Google Gemini API key in `.env.local`.
-
----
-
-## 📦 Environment Variables Example
-
-```env
-NEXT_PUBLIC_FIREBASE_API_KEY=your_api_key
-NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your_auth_domain
-NEXT_PUBLIC_FIREBASE_PROJECT_ID=your_project_id
-NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=your_storage_bucket
-NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
-NEXT_PUBLIC_FIREBASE_APP_ID=your_app_id
-NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID=your_measurement_id
-
-NEXT_PUBLIC_GEMINI_API_KEY=your_gemini_api_key
 ```
+
+🔗 Or just try it live: [https://smartdev-editor.vercel.app](https://smartdev-editor.vercel.app)
 
 ---
 
@@ -158,5 +159,4 @@ This project is built to help developers learn faster, collaborate smarter, and 
 > ✨ *SmartDev Editor - Code smarter. Together.* ✨
 
 ```
-
 
